@@ -17,7 +17,7 @@ const logoClasses = (size) =>
 
 const Logo = ({ size }) => {
   return (
-    <div className="text-blue-300">
+    <div className="text-blue-300 mt-2">
       <LogoSvg className={logoClasses(size)} />
     </div>
   );

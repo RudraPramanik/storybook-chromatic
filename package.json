@@ -23,7 +23,8 @@
     "test": "craco test",
     "eject": "craco eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "chromatic": "npx chromatic --project-token=1c8ee6367222"
   },
   "eslintConfig": {
     "extends": [
@@ -51,5 +52,7 @@
     "@storybook/preset-create-react-app": "^3.1.6",
     "@storybook/react": "^6.1.20",
     "chromatic": "^6.17.0"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "rst-app@0.1.0"
 }
