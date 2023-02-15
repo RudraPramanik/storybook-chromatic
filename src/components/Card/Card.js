@@ -29,7 +29,7 @@ const Card = ({ color }) => {
       <div
         className={`${CallClasses(color)} ${Border(
           color
-        )}  border-4 rounded-2xl py-4 px-4 content-center flex flex-col items-center `}
+        )}  border-4 rounded-2xl py-4 px-4 content-center flex flex-col items-center mt-8 `}
       >
         <div className="flex flex-row space-x-4 ">
           <LogoSvg
